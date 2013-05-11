@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------
+	CSS Document common
+--------------------------------------------- */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	-webkit-background-size: auto 15px;
+	background-size: auto 15px;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	text-align: center;
+	font-size: 14px;
+	font-family : "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "osaka";
+	line-height: 22px;
+	color: #333;
+}
+
+.center {
+	text-align: center;
+}
+
+.f_left {
+	float: left;
+}
+
+.f_right {
+	float: right;
+}
+
+.clearfix {
+	min-height: 1px;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+form, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+}
+
+a {
+	text-decoration: none;
+	color: #996600;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+/*------------------------------------------------------------
+	CSS Document header
+------------------------------------------------------------*/
+
+#container {
+	width: 810px;
+	margin: 0 auto;
+}
+
+dt {
+	float: left;
+}
+
+dd {
+	float: right;
+	text-align: right;
+}
+
+#section_01 {
+	margin: 0 10px 30px;
+	background: url(../images/menu_05.jpg) no-repeat right top;
+}
+
+#section_01 .f_left {
+	margin-right: 50px;
+}
+
+#section_02 {
+	margin: 0 10px 30px;
+	background: url(../images/menu_06.jpg) no-repeat left top;
+}
+
+#section_02 .f_right {
+	margin-left: 50px;
+}
+
+#photo {
+	margin: 0 10px 20px;
+}
+
+#photo .f_left {
+	margin-right: 95px;
+}
+
+#header div.f_right {
+	width: 58%;
+}
